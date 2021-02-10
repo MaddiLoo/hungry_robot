@@ -12,7 +12,7 @@ from Tkinter import *
 import tkFileDialog as tk_MyFileDialog
 utils.tk_FileDialog = tk_MyFileDialog
 
-dinner = easygui.buttonbox("Dad I'm hungry!!!", "WHAT IS FOR DINNER?!", ['Pancakes', 'Mac and Cheese', 'Cookies', 'Dad Joke'])
+dinner = easygui.buttonbox("Dad I'm hungry!!!", "WHAT IS FOR DINNER?!", ['Pancakes', 'Mac and Cheese', 'Cookies', 'Cheeseburger', 'Dad Joke'])
 
 if dinner == 'Dad Joke':
     tle = "Muahahahahahhaha"
