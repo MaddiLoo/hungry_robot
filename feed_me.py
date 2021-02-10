@@ -17,4 +17,11 @@ dinner = easygui.buttonbox("Dad I'm hungry!!!", "WHAT IS FOR DINNER?!", ['Pancak
 msg = dinner
 tle = "DINNER HAS BEEN DETERMINED AS:"
 
+if dinner == 'Dad Joke':
+    tle = "Muahahahahahhaha"
+    msg = "Hi hungry, I'm dad!"
+else:
+    tle = "DINNER HAS BEEN DETERMINED AS:"
+    msg = dinner
+    
 response = easygui.msgbox(msg, tle)
